@@ -1,0 +1,25 @@
+.mobile-image {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}

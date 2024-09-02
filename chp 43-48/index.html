@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#" onclick="showAlert()">Click Me</a>
+
+    <img src="img/Screenshot 2024-09-02 224223.png" alt="Mobile 1" class="mobile-image" onclick="imageClicked('Mobile 1')" />
+<img src="img/Screenshot 2024-09-02 224232.png" alt="Mobile 2" class="mobile-image" onclick="imageClicked('Mobile 2')" />
+<img src="img/Screenshot 2024-09-02 224240.png" alt="Mobile 3" class="mobile-image" onclick="imageClicked('Mobile 3')" />
+<img src="img/Screenshot 2024-09-02 224246.png" alt="Mobile 3" class="mobile-image" onclick="imageClicked('Mobile 3')" />
+
+<h2 style="text-align: center;">Student Records</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>20</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>22</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Michael Brown</td>
+            <td>21</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Emily Davis</td>
+            <td>23</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>James Wilson</td>
+            <td>19</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Linda Johnson</td>
+            <td>20</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Robert Martinez</td>
+            <td>21</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Patricia Anderson</td>
+            <td>22</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>David Lee</td>
+            <td>23</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Mary Thomas</td>
+            <td>20</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+<h2>Hover over the image to change it:</h2>
+
+<img id="image" src="https://via.placeholder.com/300x200?text=Original+Image" 
+     alt="Original Image" 
+     onmouseover="changeImage()" 
+     onmouseout="revertImage()" 
+     style="width: 300px; height: 200px;">
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
